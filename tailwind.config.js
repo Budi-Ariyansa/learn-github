@@ -7,13 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
-      columns: {
-        '4xs': '14rem',
-      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'first-page-background': "url('/images/background-first.jpg')",
       },
       keyframes: {
         arrow: {

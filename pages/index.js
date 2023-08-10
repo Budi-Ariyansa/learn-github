@@ -1,13 +1,17 @@
 import FirstPage from "../components/first-page.js"
-import StartPoint from "@/components/start-point.js"
+import SecondPage from "@/components/second-page.js"
+import ThirdPage from "@/components/third-page.js"
+import FourthPage from "@/components/fourth-page.js"
+import Footer from "@/components/footer.js"
 
 export default function MyApp() {
   return (
     <div>
-      <div className="flex h-screen w-screen">
-        <FirstPage />
-      </div>
-      <StartPoint />
+      <FirstPage />
+      <SecondPage />
+      <ThirdPage />
+      <FourthPage />
+      <Footer />
     </div>
   )
 }
