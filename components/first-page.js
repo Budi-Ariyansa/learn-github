@@ -9,7 +9,7 @@ export default function FirstPage() {
             <div className="flex h-screen w-full backdrop-blur-sm">
                 <div className="flex flex-cols-1 md:flex-cols-2 m-auto p-5 gap-4">
                     <div className="flex-1">
-                        <img src="/images/logo-web.png" className="invert" width="200" height="200"></img>
+                        <img src="/images/logo-web.png" className="invert animate-bounce" width="200" height="200"></img>
                     </div>
                     <div>
                         <p className="font-bold text-xl md:text-5xl">Budi Ariyansa</p>

@@ -1,7 +1,7 @@
 export default function SecondPage() {
     return (
-        <div className="bg-black text-white h-screen">
-            <p className="text-xl md:text-3xl font-bold text-center pt-40 underline underline-offset-4">Tentang Saya</p>
+        <div className="bg-black text-white h-full">
+            <p className="text-xl md:text-3xl font-bold text-center pt-20 underline underline-offset-4">Tentang Saya</p>
 
             <div className="flex">
                 <div className="flex-initial p-5 mt-20 m-auto">

@@ -1,7 +1,7 @@
 export default function ThirdPage() {
     return (
         <div className="h-full">
-            <p className="text-xl font-bold underline underline-offset-4 md:text-3xl text-center mt-40">Sebuah Konten</p>
+            <p className="text-xl font-bold underline underline-offset-4 md:text-3xl text-center mt-20">Sebuah Konten</p>
             <div className="flex mt-20 p-5">
                 <div className="flex m-auto">
                     <div className="flex-initial">
