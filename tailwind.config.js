@@ -26,6 +26,11 @@ module.exports = {
         'arrow-wave': 'arrow 2s ease-in-out infinite',
       }
     },
+    fontFamily: {
+      sans: ['var(--font-poppins)']
+    }
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ],
 }

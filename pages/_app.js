@@ -1,15 +1,24 @@
 import '@/styles/globals.css'
-import { Poppins } from 'next/font/google'
+import localFont from 'next/font/local'
 
-const poppins = Poppins({ 
-  subsets: ['latin'],
-  weight: '400'
+const poppins = localFont({
+  src: [
+    {
+      path: '../public/fonts/Poppins-Regular.ttf',
+      weight: '400',
+    },
+    {
+      path: '../public/fonts/Poppins-Bold.ttf',
+      weight: '700'
+    }
+  ],
+  variable: '--font-poppins'
 })
 
 export default function App({ Component, pageProps }) {
   return (
-    <main className={poppins.className}>
-      <Component {...pageProps} />
+    <main className={`${poppins.variable} font-sans`}>
+      <Component {...pageProps}/>
     </main>
   )
 }
