@@ -1,17 +1,17 @@
-import FirstPage from "../components/first-page.js"
-import SecondPage from "@/components/second-page.js"
-import ThirdPage from "@/components/third-page.js"
-import FourthPage from "@/components/fourth-page.js"
-import Footer from "@/components/footer.js"
+import HomePage from "../components/home.js"
+import AboutMePage from "@/components/tentang-saya.js"
+import ArticlePage from "@/components/artikel.js"
+import FooterPage from "@/components/footer.js"
+import GalleryPage from "@/components/galeri.js"
 
 export default function MyApp() {
   return (
     <div>
-      <FirstPage />
-      <SecondPage />
-      <ThirdPage />
-      <FourthPage />
-      <Footer />
+      <HomePage />
+      <AboutMePage />
+      <ArticlePage />
+      <GalleryPage />
+      <FooterPage />
     </div>
   )
 }

@@ -1,9 +1,10 @@
-import { sql } from '@vercel/postgres';
-
-export default function Footer() {
+export default function FooterPage() {
     return (
-        <div className="footer text-center p-5 bg-gray-400">
-            <p className="text-base md:text-xl font-bold">COPYRIGHT &#169; BUDIARIYANSA 2023</p>
-        </div>
-    );
+        <footer class="shadow dark:bg-[#445069]">
+            <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+                <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://budi-ariyansa.vercel.app" class="hover:underline">budi-ariyansa</a>. All Rights Reserved.
+                </span>
+            </div>
+        </footer>
+    )
 }
